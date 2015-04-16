@@ -4,10 +4,10 @@ WebStarter
 Installation
 ------------------------------
 
-** Nodejs **
+###### Nodejs
 > Download and install nodejs - [https://nodejs.org/](https://nodejs.org/) *
 
-** Grunt **
+###### Grunt
 1. Open command line tool and go to the project directory.
 2. Run `npm install -g grunt-cli`
 
