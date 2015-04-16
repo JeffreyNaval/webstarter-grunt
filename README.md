@@ -1,4 +1,4 @@
-WebStarter
+WebStarter - Grunt
 ==============================
 
 Installation
