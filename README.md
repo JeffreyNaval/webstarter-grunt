@@ -1,5 +1,6 @@
 WebStarter - Grunt
 ==============================
+Webtools for beginners. Automate sass and js minification using [Grunt](http://gruntjs.com/).
 
 Installation
 ------------------------------
