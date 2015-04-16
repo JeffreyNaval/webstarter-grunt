@@ -47,7 +47,7 @@ module.exports = function(grunt) {
 					src : [
 							'css/**/*.css',
 							'js/**/*.js',
-							'html/*.html',
+							'**/*.html',
 					]
 				},
 				options: {
@@ -73,9 +73,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-browser-sync');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
-
-	// Grunt initialize. Copy bower dependencies
-	grunt.registerTask('init', ['copy:main']);
 
 	// Grunt Launch Server
 	grunt.registerTask('serve', ['browserSync', 'watch']);
