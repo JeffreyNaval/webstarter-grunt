@@ -24,8 +24,7 @@ Commands:
 
 * `grunt` — minifies js and compiles sass to css.
 * `grunt watch` — watch files for changes.
-* `grunt serve` — Lunch BrowserSync and watch
+* `grunt serve` — Lunch BrowserSync and watch files for changes.
 
 
-*Folder/file structure is based from HTML5 Boilerplate
-[https://html5boilerplate.com/](https://html5boilerplate.com/)*
+*Folder/file structure is based from [HTML5 Boilerplate](https://html5boilerplate.com/)*
