@@ -1,0 +1,25 @@
+/**
+ * Settings
+ * - mixins, helpers, fonts and variables
+ */
+@import "templates/variables";
+@import "templates/mixins";
+@import "templates/helpers";
+@import "templates/fonts";
+
+
+/**
+ * Plugins.
+ * - jquery plugins and other css libraries
+ */
+@import "plugins/normalize";
+
+
+/**
+ * Templates
+ * - template specific files
+ */
+@import "templates/header";
+@import "templates/menu";
+@import "templates/home";
+@import "templates/footer";
