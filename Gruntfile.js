@@ -13,7 +13,7 @@ module.exports = function(grunt) {
 				}
 			},
 			js: {
-				files: ['js/main.js','js/plugins/**/*.js'],
+				files: ['js/main.js'],
 				tasks: ['uglify'],
 				options: {
 					atBegin: true
@@ -61,7 +61,7 @@ module.exports = function(grunt) {
 		uglify: {
 		    my_target: {
 		        files: {
-		          'js/main.min.js': ['js/main.js','js/plugins/**/*.js']
+		          'js/main.min.js': ['js/plugins.js','js/main.js']
 		        }
 		    }
 		}
